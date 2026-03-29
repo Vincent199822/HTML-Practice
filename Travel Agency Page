@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="SAMPLE WEBSITE">
+    <title>Travel Agency Page</title>
+  </head>
+  <body>
+    <main>
+      <h1>Travel destination</h1>
+      <p>Beautiful places in Southeast Asia</p>
+      <h2>Packages</h2>
+      <p>List of packages</p>
+      <ul>
+        <li><a target="_blank" href="https://www.freecodecamp.org/learn">Group Travels</a></li>
+        <li><a target="_blank" href="https://www.freecodecamp.org/learn">Private Tours</a></li>
+      </ul>
+      <h2>Top Itineraries</h2>
+      <figure>
+        <a target="_blank" href="https://www.freecodecamp.org/learn">
+        <img src="https://cdn.freecodecamp.org/curriculum/labs/colosseo.jpg" alt="colosseo">
+        </a>
+        <figcaption>Beautiful colosseo</figcaption>
+        </figure>
+        <figure>
+          <a target="_blank" href="https://www.freecodecamp.org/learn">
+        <img src="https://cdn.freecodecamp.org/curriculum/labs/alps.jpg" alt="Mountain">
+        </a>
+        <figcaption>Beautiful Mountain</figcaption>
+        </figure>
+        <figure> 
+          <a target="_blank" href="https://www.freecodecamp.org/learn">
+        <img src="https://cdn.freecodecamp.org/curriculum/labs/sea.jpg" alt="Sea">
+        </a>
+        <figcaption>Beautiful Sea</figcaption>
+        </figure>
+        <a target="_blank" href="https://www.freecodecamp.org/learn">
+    </main>
+  </body>
+</html>
