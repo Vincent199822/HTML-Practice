@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Video Compilation Page</title>
+</head>
+
+<body>
+    <main>
+        <h1>Video Compilation Page</h1>
+        <p>Build a Video Compilation Page</p>
+        <section>
+            <h2>HTML tutorial</h2>
+            <p>Video tutorial for beginner in HTML</p>
+            <iframe
+            height="560"
+            width="315"
+            title="Video tutorial for beginner in HTML"
+            src="https://www.youtube.com/watch?v=vY2xUc4TVmY&pp=ygUNSFRtbCB0dXRvcmlhbA%3D%3D"
+            ></iframe>
+            
+        </section>
+        <section>
+            <h2>One piece</h2>
+            <p>Episode 999</p>
+            <iframe
+            height="560"
+            width="315"
+            title="Episode 999"
+            src="https://www.youtube.com/watch?v=qCdrh1KvcfA&pp=ygUQb25lIHBpZWNlIGVwIDk5OQ%3D%3D"
+            ></iframe>
+        </section>
+        <section>
+            <h2>2026 trending Music</h2>
+            <p>trending music in 2026</p>
+            <iframe
+            height="560"
+            width="315"
+            title="2026 trending Music"
+            src="https://www.youtube.com/watch?v=ekMtP80FXXA&list=RDekMtP80FXXA&start_radio=1&pp=ygUTdHJlbmRpbmcgbXVzaWMgMjAyNqAHAQ%3D%3D"
+            ></iframe>
+        </section>
+        
+    </main>
+
+</body>
+
+</html>
