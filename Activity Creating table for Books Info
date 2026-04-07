@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Catalog</title>
+</head>
+
+<body>
+  <table>
+    <cation>
+      Book Information
+    </caption>
+    <thead>
+      <tr>
+        <th>Title</th>
+        <th>Author</th>
+        <th>Genre</th>
+        <th>Publication Year</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Sapiens</td>
+        <td>Harari</td>
+        <td>History</td>
+        <td>2011</td>
+      </tr>
+      <tr>
+        <td>The Book Eaters</td>
+        <td>Sunyi Dean</td>
+        <td>Novel</td>
+        <td>2023</td>
+      </tr>
+      <tr>
+        <td>African Economic History</td>
+        <td>Ralf Austin</td>
+        <td>Economics</td>
+        <td>1994</td>
+      </tr>
+      <tr>
+        <td>The Trial</td>
+        <td>Franz Kafka</td>
+        <td>Novel</td>
+        <td>2010</td>
+      </tr>
+      <tr>
+        <td>Perfume</td>
+        <td>Patrick Sukind</td>
+        <td>Novel</td>
+        <td>1987</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="4">Total Books:</td>
+        <td>5</td>
+      </tr>
+    </tfoot>
+  </table>
+</body>
+
+</html>
