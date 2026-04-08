@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+      <h1 id="title">Project Survey Form</h1>
+      <p id="description">This activity is to test my ability un creating sa form</p>
+  <body>
+    <form id="survey-form">
+    <fieldset>
+      <legend>Personal Information</legend>
+
+    <label 
+    for="name"
+    id="name-label"
+    >Full Name:</label>
+    <input 
+    required
+    id="name" 
+    type="text"
+    name="name" 
+    placeholder="e.g. Juan Dela Cruz" 
+    size="20"
+    >
+
+    <br><label 
+    for="email"
+    id="email-label"
+    >Email:</label>
+    <input 
+    required 
+    id="email" 
+    type="email"
+    name="email"
+    placeholder="e.g. sample@email.com" 
+    size="20"
+    >
+
+    <br><label 
+    for="number"
+    id="number-label"
+    >Age:</label>
+    <input
+    required
+    id="number"
+    type="number"
+    name="age"
+    min="18"
+    max="60"
+    placeholder="18"
+
+    <br><label for="dropdown">Gender</label>
+    <select 
+    name="Gender"
+    id="dropdown">
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+    </select>
+
+    <br><label for="yes">Yes</label>
+    <input 
+    id="yes" 
+    type="radio"
+    name="project"
+    value="yes"
+    >
+    <label for="no">No</label>
+    <input 
+    id="no" 
+    type="radio"
+    name="project"
+    value="no"
+    >
+
+    <p>Other information:</p>
+
+    <label for="travel">Travel</label>
+    <input 
+    id="travel" 
+    type="checkbox" 
+    name="interest" 
+    value="travel">
+
+    <label for="rides">Rides</label>
+    <input 
+    id="rides" 
+    type="checkbox" 
+    name="interest"
+    value="rides">
+
+    <label for="nature">Nature</label>
+    <input
+    id="nature"
+    type="checkbox"
+    name="interest"
+    value="nature">
+    <br>
+    <label for="swimming">Swimming</label>
+    <input
+    id="swimming"
+    type="checkbox"
+    name="interest"
+    value="swimming">
+
+    <br><br><label for="comment">Other comment:</label>
+    <textarea 
+    id="comment" 
+    col="30"
+    rows="10"
+    name="comment">
+    </textarea>
+    <br>
+
+     <button 
+     type="submit" id="submit"
+     >Submit</button>
+
+    </fieldset>
+    </form>
+  </body>
+</html>
